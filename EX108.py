@@ -1,0 +1,7 @@
+file = open("F:\\python\\Python by Examples\\Names.txt","a")
+name = input("Add name: ")
+file.write(name + "\n")
+file.close()
+file = open("F:\\python\\Python by Examples\\Names.txt","r")
+print(file.read())
+file.close()

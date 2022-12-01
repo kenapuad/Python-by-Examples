@@ -1,0 +1,7 @@
+file = open("F:\\python\\Python by Examples\\Names.txt","w")
+file.write("Kenneth\n")
+file.write("Makis\n")
+file.write("Marion\n")
+file.write("Yolly\n")
+file.write("Carmen\n")
+file.close()
